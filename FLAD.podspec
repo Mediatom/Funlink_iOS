@@ -8,6 +8,10 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.mediatom.cn/dockingdocs/detail?id=70"
   s.license      = { :type => "MIT" }
   s.author       = 'Lurich'
+  s.maintainers = [
+      { "name" => "xiaofu", "email" => "3290235031@qq.com" },
+      { "name" => "sunandfu", "email" => "1451833260@qq.com", "github" => "sunandfu" }
+]
   
   s.platform     = :ios, '10.0'
   s.ios.deployment_target = '10.0'
