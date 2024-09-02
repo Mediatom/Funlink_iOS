@@ -3,13 +3,11 @@
  [![Docs-zh](https://shields.io/badge/Docs-中文-blue?logo=Read%20The%20Docs)](https://xiaofu666.github.io/static/html/iOS-SDK-对接文档.html)
  [![README-zh](https://shields.io/badge/README-中文-blue)](README.md)
  [![FAQ-zh](https://shields.io/badge/FAQ-中文-blue?logo=Read%20The%20Docs)](https://xiaofu666.github.io/static/html/iOS-SDK-对接文档.html?#faq)
- [![FLAD](https://img.shields.io/badge/FLAD-AD-red.svg)](https://github.com/xiaofu666/FLAD.git)
- [![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/xiaofu666/FLAD.git)
- [![Language](https://img.shields.io/badge/Language-Objective--C-FF7F24.svg?style=flat)](https://github.com/xiaofu666/FLAD.git)
- [![CocoaPods](https://img.shields.io/cocoapods/p/FLAD.svg)](https://github.com/xiaofu666/FLAD.git)
- [![CocoaPods](https://img.shields.io/cocoapods/v/FLAD.svg)](https://github.com/xiaofu666/FLAD.git)
- [![开源爱情](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/xiaofu666/FLAD.git)
- [![开源爱情](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/xiaofu666/FLAD.git)
+ [![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Mediatom/Funlink_iOS.git)
+ [![Language](https://img.shields.io/badge/Language-Objective--C-FF7F24.svg?style=flat)](https://github.com/Mediatom/Funlink_iOS.git)
+ [![CocoaPods](https://img.shields.io/cocoapods/p/FLAD.svg)](https://github.com/Mediatom/Funlink_iOS.git)
+ [![CocoaPods](https://img.shields.io/cocoapods/v/FLAD.svg)](https://github.com/Mediatom/Funlink_iOS.git)
+ [![开源爱情](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/Mediatom/Funlink_iOS.git)
 
 ## 使用CocoaPods安装
 
