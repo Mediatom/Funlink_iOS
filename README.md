@@ -10,8 +10,6 @@
  [![CocoaPods](https://img.shields.io/cocoapods/v/FLAD.svg)](https://github.com/xiaofu666/FLAD.git)
  [![开源爱情](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/xiaofu666/FLAD.git)
  [![开源爱情](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/xiaofu666/FLAD.git)
- [![微信](https://img.shields.io/badge/微信-Lurich-green.svg?style=flat)](https://u.wechat.com/EHPxTVDogoJySlhWs9vbKpc)
- [![邮箱](https://img.shields.io/badge/邮箱-3290235031@qq.com-green.svg?style=flat)](https://qm.qq.com/q/Nbo6sgqD0M)
 
 ## 使用CocoaPods安装
 
