@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
   
   s.subspec 'FLAdCsjAdapter' do |ss|
     ss.ios.deployment_target = '11.0'
-    ss.dependency 'Ads-CN-Beta/BUAdSDK'
-    ss.dependency 'Ads-CN-Beta/CSJMediation'
+    ss.dependency 'Ads-CN/BUAdSDK'
+    ss.dependency 'Ads-CN/CSJMediation'
     ss.dependency 'FLAD/FLAdSaas'
     ss.vendored_frameworks = 'FLAD/FLAdCsjAdapter.xcframework'
   end
@@ -80,13 +80,6 @@ Pod::Spec.new do |s|
     ss.vendored_frameworks = 'FLAD/FLAdTbAdapter.xcframework'
   end
   
-  s.subspec 'FLAdMsAdapter' do |ss|
-    ss.ios.deployment_target = '11.0'
-    ss.dependency 'MSMobAdSDK/MS'
-    ss.dependency 'FLAD/FLAdSaas'
-    ss.vendored_frameworks = 'FLAD/FLAdMsAdapter.xcframework'
-  end
-  
   s.subspec 'FLAdSigmobAdapter' do |ss|
     ss.ios.deployment_target = '11.0'
     ss.dependency 'SigmobAd-iOS'
@@ -106,14 +99,6 @@ Pod::Spec.new do |s|
     ss.dependency 'HRAdSDK/HR'
     ss.dependency 'FLAD/FLAdSaas'
     ss.vendored_frameworks = 'FLAD/FLAdHrAdapter.xcframework'
-  end
-  
-  s.subspec 'FLAdYtAdapter' do |ss|
-    ss.ios.deployment_target = '11.0'
-    # ss.dependency 'YouTuiAdSDK'
-    ss.dependency 'SFYtSDK'
-    ss.dependency 'FLAD/FLAdSaas'
-    ss.vendored_frameworks = 'FLAD/FLAdYtAdapter.xcframework'
   end
   
   s.subspec 'FLAdKdxfAdapter' do |ss|
@@ -138,22 +123,14 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'FLAdMtgAdapter' do |ss|
-    ss.ios.deployment_target = '13.0'
+    ss.ios.deployment_target = '11.0'
     ss.dependency 'MintegralAdSDK/All', '7.6.3'
-    ss.dependency 'AppLovinMediationMintegralAdapter', '7.6.3.0.0'
-    ss.dependency 'TradPlusAdSDK/MintegralAdapter', '11.3.0'
-    ss.dependency 'TPNMintegralSDKAdapter','6.3.50.2'
-    ss.dependency 'GoogleMobileAdsMediationMintegral', '7.6.3.0'
     ss.dependency 'FLAD/FLAdSaas'
-    ss.dependency 'FLAD/FLAdTnAdapter'
-    ss.dependency 'FLAD/FLAdTpAdapter'
-    ss.dependency 'FLAD/FLAdApplovinAdapter'
-    ss.dependency 'FLAD/FLAdMobAdapter'
     ss.vendored_frameworks = 'FLAD/FLAdMtgAdapter.xcframework'
   end
   
   s.subspec 'FLAdMcTool' do |ss|
-    ss.ios.deployment_target = '10.0'
+    ss.ios.deployment_target = '11.0'
     ss.dependency 'FLAD/FLAdSaas'
     ss.vendored_frameworks = 'FLAD/FLAdMcTool.xcframework'
   end
@@ -162,12 +139,12 @@ Pod::Spec.new do |s|
     ss.ios.deployment_target = '11.0'
     ss.dependency 'SFQmSDK', '1.0.9'
     ss.dependency 'FLAD/FLAdSaas'
-    ss.vendored_frameworks = 'FLAD/SFAdQmAdapter.xcframework'
+    ss.vendored_frameworks = 'FLAD/FLAdQmAdapter.xcframework'
   end
   
   s.subspec 'FLAdDmAdapter' do |ss|
     ss.ios.deployment_target = '11.0'
-    ss.dependency 'DomobSDK','3.4.8'
+    ss.dependency 'DomobSDK'
     ss.dependency 'FLAD/FLAdSaas'
     ss.vendored_frameworks = 'FLAD/FLAdDmAdapter.xcframework'
   end
