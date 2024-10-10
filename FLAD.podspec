@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FLAD"
-  s.version      = "2.8.0.6"
+  s.version      = "2.8.0.7"
   s.summary      = "Mobile App Aggregation Ad SDK of Fanlian SDK for iOS."
   s.description  = <<-DESC
             Fanlian SDK is an advertising aggregation SDK that allows you to monetize iOS applications through Mediatom advertising.
@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'FLAdTbAdapter' do |ss|
-    ss.ios.deployment_target = '11.0'
+    ss.ios.deployment_target = '12.0'
     ss.dependency 'TanxSDK'
     ss.dependency 'FLAD/FLAdSaas'
     ss.vendored_frameworks = 'FLAD/FLAdTbAdapter.xcframework'
@@ -110,7 +110,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'FLAdZyAdapter' do |ss|
     ss.ios.deployment_target = '11.0'
-    ss.dependency 'OctopusSDK'
+    ss.dependency 'SFZySDK', '1.0.0'
     ss.dependency 'FLAD/FLAdSaas'
     ss.vendored_frameworks = 'FLAD/FLAdZyAdapter.xcframework'
   end
