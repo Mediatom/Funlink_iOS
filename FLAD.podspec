@@ -149,13 +149,5 @@ Pod::Spec.new do |s|
     ss.vendored_frameworks = 'FLAD/FLAdDmAdapter.xcframework'
   end
 
-  s.subspec 'FLAdTnAdapter' do |ss|
-    ss.ios.deployment_target = '13.0'
-    ss.dependency 'TPNiOS','6.3.50'
-    ss.dependency 'TraminiSDK','6.3.30'
-    ss.dependency 'FLAD/FLAdSaas'
-    ss.vendored_frameworks = 'FLAD/FLAdTnAdapter.xcframework'
-  end
-
 
 end
